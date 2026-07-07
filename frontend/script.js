@@ -8,11 +8,16 @@ let output="";
 
 movies.forEach(movie=>{
 
-output+=`
+output += `
+<div class="card">
+
 <h3>${movie.title}</h3>
-<p>${movie.genre}</p>
-<p>⭐ ${movie.rating}</p>
-<hr>
+
+<p><strong>Genre:</strong> ${movie.genre}</p>
+
+<p><strong>⭐ Rating:</strong> ${movie.rating}</p>
+
+</div>
 `;
 
 });
