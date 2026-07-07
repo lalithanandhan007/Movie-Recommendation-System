@@ -1,7 +1,9 @@
 from flask import Flask, jsonify, request
-import json
+from flask_cors import CORS
+import json 
 
 app = Flask(__name__)
+CORS(app)
 
 def load_movies():
     with open("movies.json", "r") as file:
