@@ -10,16 +10,13 @@ pipeline {
         }
 
         stage('Build Docker Image') {
-            steps {
-                sh 'docker build -t movie-recommendation ./backend'
-            }
-        }
+    steps {
+        bat 'docker build -t movie-recommendation backend'
+    }
+}
 
-        stage('Verify Docker Image') {
-            steps {
-                sh 'docker images'
-            }
-        }
-
+stage('Verify Docker Image') {
+    steps {
+        bat 'docker images'
     }
 }
