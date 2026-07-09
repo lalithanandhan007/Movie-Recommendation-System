@@ -3,30 +3,35 @@
     "id": 1,
     "title": "Avengers: Endgame",
     "genre": "Action",
-    "rating": 9.2
+    "rating": 9.2,
+    "poster": "https://lalith-movie-recommendation.s3.ap-south-1.amazonaws.com/avengers.jpg"
   },
   {
     "id": 2,
     "title": "Interstellar",
     "genre": "Sci-Fi",
-    "rating": 9.5
+    "rating": 9.5,
+    "poster": "https://lalith-movie-recommendation.s3.ap-south-1.amazonaws.com/interstellar.jpg"
   },
   {
     "id": 3,
     "title": "The Dark Knight",
     "genre": "Action",
-    "rating": 9.8
+    "rating": 9.8,
+    "poster": "https://lalith-movie-recommendation.s3.ap-south-1.amazonaws.com/darkknight.jpg"
   },
   {
     "id": 4,
     "title": "Inception",
     "genre": "Sci-Fi",
-    "rating": 9.4
+    "rating": 9.4,
+    "poster": "https://lalith-movie-recommendation.s3.ap-south-1.amazonaws.com/inception.jpg"
   },
   {
     "id": 5,
     "title": "Joker",
     "genre": "Drama",
-    "rating": 9.0
+    "rating": 9.0,
+    "poster": "https://lalith-movie-recommendation.s3.ap-south-1.amazonaws.com/joker.jpg"
   }
 ]
